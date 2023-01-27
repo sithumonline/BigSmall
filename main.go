@@ -36,7 +36,7 @@ func main() {
 	http.HandleFunc("/small", getSmall)
 	http.HandleFunc("/big", getBig)
 
-	http.ListenAndServe(":8090", nil)
+	http.ListenAndServe(":3000", nil)
 }
 
 // GOMAXPROCS=1 go run main.go 
