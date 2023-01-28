@@ -19,14 +19,14 @@ wrk --rate=20 --duration=5s "http://localhost:3000/big" --latency > nodejs_big
 
 ```
 
-### Go CUP 1
+### Go CPU 1
 
 ```shell
 wrk --rate=20 --duration=5s "http://localhost:3000/small" --latency > go_cpu_1_small
 wrk --rate=20 --duration=5s "http://localhost:3000/big" --latency > go_cpu_1_big
 ```
 
-### Go CUP 8
+### Go CPU 8
 
 ```
 wrk --rate=20 --duration=5s "http://localhost:3000/small" --latency > go_cpu_8_small
